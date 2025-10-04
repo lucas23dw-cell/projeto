@@ -1,0 +1,55 @@
+body{
+    font-family: 'Roboto Mono', monospace;
+    background-color: #0F131a;
+    color: #FFFFFF;
+    line-height: 1.4;
+    padding: 32px 24px;
+}
+
+.header{
+    margin-bottom: 48px;
+    z-index: 99;
+    position: relative;
+    max-width: 700px; 
+     margin: 0 auto;
+}
+
+.header h1{
+    margin-bottom: 16px;
+    font-size: 48px;
+    text-align: center;
+}
+
+.header .subtitle{
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 19px;
+}
+
+.container{
+    max-width: 1024px; 
+    margin: 0 auto;
+    z-index: 99;
+    position: relative
+}
+
+.card{
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 8px;
+    padding: 32px;
+    margin-bottom: 32px;
+}
+
+.card-header{
+    margin-bottom: 32px;
+    font-style: 20px;
+    text-align:center;
+}
+
+.form-group textarea{
+    background-color: rgba(255, 255, 255, 0.2);
+    color: #FFFFFF;
+    width: 100%;
+    min-height: 21px;
+    padding: 16px;
+    border: none;
+}
